@@ -25,14 +25,19 @@ The "Job Listings Scraper for Glassdoor" is a Python-based project that automate
 **Tools & Libraries:**
 
    **Python:** For scripting and data management.
+   
    **Selenium:** For web scraping and browser automation.
+   
    **Pandas:** For data cleaning and CSV file handling.
 
 **How It Works:**
 
    **Script Setup:** Configures Selenium to open a browser, handle user inputs, and set search parameters for jobs.
+   
    **Job Search & Scraping:** The script navigates to Glassdoor page (https://www.glassdoor.com/Job/index.htm) and iterates over job listings, extracting data and handling pop-ups or navigational elements.
+   
    **Data Processing:** Data is cleaned and transformed, removing duplicates and preparing the dataset for analysis.
+   
    **CSV Export:** The job data is saved into a CSV file, making it accessible for future analysis.
 
 **Data Insights:**
